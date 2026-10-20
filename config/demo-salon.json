@@ -1,0 +1,13 @@
+{
+  "business": "Demo Salon, Al Barsha",
+  "note": "Fictional sample business for demos.",
+  "hours": "Sat-Thu 10:00-21:00, Fri 14:00-21:00",
+  "location": "Al Barsha 1, Dubai (sample address)",
+  "services": { "haircut": "AED 80", "blow dry": "AED 60", "hair colour": "AED 250", "manicure": "AED 70", "pedicure": "AED 90" },
+  "faqs": [
+    { "q": "Do you take walk-ins?", "a": "Yes, subject to availability. Booking is recommended." },
+    { "q": "Is there parking?", "a": "Street parking is available nearby." }
+  ],
+  "booking": { "fields": ["name", "service", "time"], "confirm": true },
+  "handoff": { "keywords": ["human", "person", "agent", "staff", "manager"] }
+}

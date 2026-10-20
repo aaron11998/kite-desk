@@ -1,0 +1,2 @@
+{ "name": "kite-desk", "version": "0.0.1", "private": true, "description": "AI WhatsApp receptionist for small businesses (early development)", "main": "server.js", "license": "MIT",
+  "scripts": { "start": "node server.js" }, "dependencies": { "express": "^4.19.2" }, "engines": { "node": ">=18" } }
