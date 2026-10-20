@@ -1,0 +1,245 @@
+{
+  "locale": "pt-BR",
+  "name": "Português (Brasil)",
+  "dir": "ltr",
+  "page": {
+    "title": "Kite Desk: recepcionista de IA para WhatsApp (acesso antecipado) | Kitebuild Studio",
+    "desc": "Kite Desk, da Kitebuild Studio: uma recepcionista de IA para WhatsApp para pequenos negócios. Em desenvolvimento, acesso antecipado.",
+    "skip": "Pular para o conteúdo",
+    "nav_how": "Como funciona",
+    "nav_features": "Recursos",
+    "nav_demo": "Demonstração",
+    "nav_faq": "Perguntas frequentes",
+    "cta_early": "Solicitar acesso antecipado",
+    "lang_label": "Idioma",
+    "eyebrow": "Kite Desk · Em desenvolvimento · Acesso antecipado",
+    "lead": "Uma recepcionista de IA para WhatsApp para pequenos negócios. Ela responde às perguntas mais comuns, faz agendamentos e passa a conversa para uma pessoa quando necessário.",
+    "cta_demo": "Testar a demonstração",
+    "chips": [
+      "WhatsApp",
+      "Perguntas frequentes",
+      "Agendamentos",
+      "Transferência para atendente",
+      "Demo em 6 idiomas"
+    ],
+    "how_h": "Como funciona",
+    "step1": "<strong>Configuração.</strong> Colocamos seus horários, serviços, preços e perguntas frequentes em uma configuração simples.",
+    "step2": "<strong>Conexão.</strong> O Kite Desk é conectado ao número do seu WhatsApp Business pela WhatsApp Cloud API.",
+    "step3": "<strong>Respostas.</strong> Seus clientes recebem respostas e agendamentos na hora; o que for mais complicado vai para a sua equipe.",
+    "feat_h": "Recursos",
+    "f1h": "Respostas às perguntas frequentes",
+    "f1p": "Horários, preços, endereço e políticas, respondidos com as informações do seu próprio negócio.",
+    "f2h": "Fluxo de agendamento",
+    "f2p": "Coleta nome, serviço e horário preferido e depois confirma com o cliente.",
+    "f3h": "Transferência para atendente",
+    "f3p": "O cliente pode pedir para falar com uma pessoa a qualquer momento; sua equipe assume a conversa.",
+    "f4h": "Seus dados, sua configuração",
+    "f4p": "As informações do negócio ficam em um arquivo de configuração que você pode revisar e atualizar.",
+    "demo_h": "Demonstração ao vivo (no seu navegador)",
+    "demo_sub": "<b>Demonstração, negócio de exemplo:</b> o “{biz}” é fictício. Esta demonstração é baseada em regras, roda apenas no seu navegador e não envia mensagens reais de WhatsApp. Ela não está conectada ao WhatsApp.",
+    "demo_tag": "Demonstração, negócio de exemplo",
+    "demo_badge": "DEMO",
+    "placeholder": "Digite uma mensagem",
+    "send": "Enviar",
+    "demo_region": "Demonstração do chat do Kite Desk",
+    "pricing_h": "Preços",
+    "pricing_ch": "Acesso antecipado, preços sob consulta",
+    "pricing_p": "O Kite Desk está em desenvolvimento. Entre em contato para participar do acesso antecipado e conversar sobre o seu negócio.",
+    "contact_btn": "Fale conosco",
+    "faq_h": "Perguntas frequentes",
+    "q1": "O Kite Desk já funciona no WhatsApp?",
+    "a1": "Ainda não. O Kite Desk está em desenvolvimento e é oferecido como acesso antecipado. A demonstração acima roda apenas no seu navegador.",
+    "q2": "Para quais negócios ele é indicado?",
+    "a2": "Pequenos negócios que recebem perguntas repetidas e pedidos de agendamento pelo WhatsApp: salões, clínicas, estúdios, oficinas.",
+    "q3": "Uma pessoa de verdade pode assumir a conversa?",
+    "a3": "Sim. A transferência para um atendente humano é um recurso central.",
+    "q4": "Quanto custa?",
+    "a4": "Acesso antecipado, preços sob consulta.",
+    "int_h": "Tem interesse?",
+    "int_btn": "Solicite acesso antecipado pelo nosso formulário de contato",
+    "langs_h": "Idiomas",
+    "langs_p": "Esta página está disponível em:",
+    "foot": "© Kitebuild Studio, Dubai · O Kite Desk está em desenvolvimento. A demonstração usa um negócio de exemplo fictício.",
+    "foot_early": "Acesso antecipado:",
+    "wa_text": "Olá, Kitebuild Studio! Tenho interesse no acesso antecipado ao Kite Desk",
+    "wa_fab": "Conversar no WhatsApp"
+  },
+  "demo": {
+    "match": "token",
+    "business": "Salão Demo, Pinheiros",
+    "initials": "SD",
+    "hours": "seg a sáb, das 9h às 20h; domingo fechado",
+    "location": "Pinheiros, São Paulo (endereço de exemplo para a demonstração)",
+    "services": [
+      {
+        "id": "haircut",
+        "label": "corte",
+        "price": "R$ 70",
+        "aliases": [
+          "corte",
+          "cortar",
+          "corte de cabelo",
+          "aparar"
+        ]
+      },
+      {
+        "id": "blowdry",
+        "label": "escova",
+        "price": "R$ 50",
+        "aliases": [
+          "escova",
+          "escovinha"
+        ]
+      },
+      {
+        "id": "colour",
+        "label": "coloração",
+        "price": "R$ 180",
+        "aliases": [
+          "coloracao",
+          "colorir",
+          "tintura",
+          "pintar",
+          "luzes"
+        ]
+      },
+      {
+        "id": "manicure",
+        "label": "manicure",
+        "price": "R$ 35",
+        "aliases": [
+          "manicure",
+          "mao",
+          "maos",
+          "unha",
+          "unhas"
+        ]
+      },
+      {
+        "id": "pedicure",
+        "label": "pedicure",
+        "price": "R$ 40",
+        "aliases": [
+          "pedicure",
+          "pe",
+          "pes"
+        ]
+      }
+    ],
+    "keywords": {
+      "human": [
+        "atendente",
+        "humano",
+        "pessoa",
+        "alguem",
+        "gerente",
+        "falar com alguem",
+        "me liga",
+        "me ligue"
+      ],
+      "cancel": [
+        "cancelar",
+        "cancela",
+        "parar",
+        "recomecar"
+      ],
+      "yes": [
+        "sim",
+        "s",
+        "confirmo",
+        "confirmar",
+        "ok",
+        "pode",
+        "beleza",
+        "isso"
+      ],
+      "book": [
+        "agendar",
+        "agenda",
+        "agendamento",
+        "marcar",
+        "horario disponivel",
+        "reservar",
+        "reserva"
+      ],
+      "hours": [
+        "horario",
+        "horarios",
+        "abre",
+        "abrem",
+        "aberto",
+        "fecha",
+        "fecham",
+        "funcionamento",
+        "quando"
+      ],
+      "prices": [
+        "preco",
+        "precos",
+        "valor",
+        "valores",
+        "quanto",
+        "custa",
+        "tabela",
+        "servicos",
+        "servico"
+      ],
+      "location": [
+        "onde",
+        "endereco",
+        "localizacao",
+        "fica",
+        "mapa",
+        "estacionamento",
+        "como chegar"
+      ],
+      "greet": [
+        "oi",
+        "ola",
+        "bom dia",
+        "boa tarde",
+        "boa noite",
+        "e ai"
+      ]
+    },
+    "quick": [
+      [
+        "Horários",
+        "Qual é o horário de funcionamento?"
+      ],
+      [
+        "Preços",
+        "Quais são os preços?"
+      ],
+      [
+        "Endereço",
+        "Onde vocês ficam?"
+      ],
+      [
+        "Agendar",
+        "Quero agendar"
+      ],
+      [
+        "Atendente",
+        "Quero falar com um atendente"
+      ]
+    ],
+    "msg": {
+      "welcome": "Oi! 👋 Bem-vindo(a) ao {biz}. Pergunte sobre horários, preços ou endereço, diga 'agendar' para marcar um horário ou 'falar com atendente'.",
+      "greet": "Oi! 👋 Bem-vindo(a) ao {biz}. Posso informar horários, preços e endereço, fazer um agendamento ou chamar um atendente.",
+      "handoff": "Sem problemas — vou passar você para alguém da equipe do {biz}. Em breve uma pessoa responde por aqui. (Demonstração: ninguém é avisado de verdade.)",
+      "cancelled": "Agendamento cancelado. Posso ajudar com mais alguma coisa?",
+      "ask_name": "Claro, vamos agendar! Qual é o seu nome?",
+      "ask_service": "Obrigado(a), {name}! Qual serviço você quer?\n{list}",
+      "not_caught": "Desculpe, não entendi. Escolha uma opção:\n{list}",
+      "ask_time": "Ótimo, {service} ({price}). Qual dia e horário ficam melhor para você? Ex.: 'sábado às 16h'",
+      "confirm": "Confirme, por favor:\nNome: {name}\nServiço: {service}\nHorário: {time}\nResponda SIM para confirmar ou NÃO para alterar.",
+      "booked": "✅ Agendado! {name}, seu horário de {service} está confirmado para {time} no {biz}. (Agendamento de demonstração, nada foi reservado de verdade.)",
+      "restart": "Sem problemas, vamos recomeçar. Qual é o seu nome?",
+      "hours": "Nosso horário: {hours}.",
+      "prices": "Nossos preços:\n{list}\nQuer agendar? É só dizer 'agendar'.",
+      "location": "Ficamos em {location}.",
+      "fallback": "Posso ajudar com: horário de funcionamento, preços, endereço, agendamento ou 'falar com atendente'."
+    }
+  }
+}

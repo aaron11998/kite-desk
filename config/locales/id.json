@@ -1,0 +1,241 @@
+{
+  "locale": "id",
+  "name": "Bahasa Indonesia",
+  "dir": "ltr",
+  "page": {
+    "title": "Kite Desk: resepsionis AI untuk WhatsApp (akses awal) | Kitebuild Studio",
+    "desc": "Kite Desk dari Kitebuild Studio: resepsionis AI untuk WhatsApp bagi usaha kecil. Masih dalam pengembangan, akses awal.",
+    "skip": "Langsung ke konten",
+    "nav_how": "Cara kerja",
+    "nav_features": "Fitur",
+    "nav_demo": "Demo",
+    "nav_faq": "Tanya jawab",
+    "cta_early": "Minta akses awal",
+    "lang_label": "Bahasa",
+    "eyebrow": "Kite Desk · Dalam pengembangan · Akses awal",
+    "lead": "Resepsionis AI untuk WhatsApp bagi usaha kecil. Kite Desk menjawab pertanyaan umum, mencatat booking, dan meneruskan chat ke staf saat diperlukan.",
+    "cta_demo": "Coba demonya",
+    "chips": [
+      "WhatsApp",
+      "Tanya jawab",
+      "Booking",
+      "Alih ke staf",
+      "Demo dalam 6 bahasa"
+    ],
+    "how_h": "Cara kerja",
+    "step1": "<strong>Atur.</strong> Kami memasukkan jam buka, layanan, harga, dan tanya jawab Anda ke dalam konfigurasi sederhana.",
+    "step2": "<strong>Hubungkan.</strong> Kite Desk dihubungkan ke nomor WhatsApp Business Anda melalui WhatsApp Cloud API.",
+    "step3": "<strong>Balas.</strong> Pelanggan langsung mendapat jawaban dan booking; hal yang rumit diteruskan ke tim Anda.",
+    "feat_h": "Fitur",
+    "f1h": "Jawaban tanya jawab",
+    "f1p": "Jam buka, harga, lokasi, dan kebijakan, dijawab dari informasi usaha Anda sendiri.",
+    "f2h": "Alur booking",
+    "f2p": "Mencatat nama, layanan, dan waktu yang diinginkan, lalu mengonfirmasi ke pelanggan.",
+    "f3h": "Alih ke staf",
+    "f3p": "Pelanggan bisa minta bicara dengan orang kapan saja; tim Anda mengambil alih chat.",
+    "f4h": "Data Anda, konfigurasi Anda",
+    "f4p": "Informasi usaha disimpan dalam file konfigurasi yang bisa Anda periksa dan perbarui.",
+    "demo_h": "Demo langsung (di browser Anda)",
+    "demo_sub": "<b>Demo, usaha contoh:</b> “{biz}” adalah fiktif. Demo ini berbasis aturan, hanya berjalan di browser Anda, dan tidak mengirim pesan WhatsApp sungguhan. Demo ini tidak terhubung ke WhatsApp.",
+    "demo_tag": "Demo, usaha contoh",
+    "demo_badge": "DEMO",
+    "placeholder": "Ketik pesan",
+    "send": "Kirim",
+    "demo_region": "Demo chat Kite Desk",
+    "pricing_h": "Harga",
+    "pricing_ch": "Akses awal, harga berdasarkan permintaan",
+    "pricing_p": "Kite Desk masih dalam pengembangan. Hubungi kami untuk ikut akses awal dan membahas usaha Anda.",
+    "contact_btn": "Hubungi kami",
+    "faq_h": "Tanya jawab",
+    "q1": "Apakah Kite Desk sudah aktif di WhatsApp?",
+    "a1": "Belum. Kite Desk masih dalam pengembangan dan ditawarkan sebagai akses awal. Demo di atas hanya berjalan di browser Anda.",
+    "q2": "Untuk usaha apa saja?",
+    "a2": "Usaha kecil yang sering menerima pertanyaan berulang dan booking lewat WhatsApp: salon, klinik, studio, bengkel.",
+    "q3": "Apakah orang sungguhan bisa mengambil alih?",
+    "a3": "Ya. Pengalihan ke staf adalah fitur utama.",
+    "q4": "Berapa biayanya?",
+    "a4": "Akses awal, harga berdasarkan permintaan.",
+    "int_h": "Tertarik?",
+    "int_btn": "Minta akses awal lewat formulir kontak kami",
+    "langs_h": "Bahasa",
+    "langs_p": "Halaman ini tersedia dalam:",
+    "foot": "© Kitebuild Studio, Dubai · Kite Desk masih dalam pengembangan. Demo menggunakan usaha contoh fiktif.",
+    "foot_early": "Akses awal:",
+    "wa_text": "Halo Kitebuild Studio, saya tertarik dengan akses awal Kite Desk",
+    "wa_fab": "Chat di WhatsApp"
+  },
+  "demo": {
+    "match": "token",
+    "business": "Salon Demo, Kemang",
+    "initials": "SD",
+    "hours": "Senin–Sabtu 10.00–20.00, Minggu 11.00–18.00",
+    "location": "Kemang, Jakarta Selatan (alamat contoh untuk demo)",
+    "services": [
+      {
+        "id": "haircut",
+        "label": "potong rambut",
+        "price": "Rp 85.000",
+        "aliases": [
+          "potong rambut",
+          "potong",
+          "gunting",
+          "cukur"
+        ]
+      },
+      {
+        "id": "blowdry",
+        "label": "blow",
+        "price": "Rp 60.000",
+        "aliases": [
+          "blow",
+          "blow dry",
+          "catok"
+        ]
+      },
+      {
+        "id": "colour",
+        "label": "cat rambut",
+        "price": "Rp 350.000",
+        "aliases": [
+          "cat rambut",
+          "cat",
+          "pewarnaan",
+          "warna",
+          "semir"
+        ]
+      },
+      {
+        "id": "manicure",
+        "label": "manikur",
+        "price": "Rp 75.000",
+        "aliases": [
+          "manikur",
+          "manicure",
+          "kuku tangan",
+          "kuku"
+        ]
+      },
+      {
+        "id": "pedicure",
+        "label": "pedikur",
+        "price": "Rp 90.000",
+        "aliases": [
+          "pedikur",
+          "pedicure",
+          "kuku kaki"
+        ]
+      }
+    ],
+    "keywords": {
+      "human": [
+        "staf",
+        "admin",
+        "orang",
+        "manusia",
+        "cs",
+        "manajer",
+        "telepon saya",
+        "telpon saya"
+      ],
+      "cancel": [
+        "batal",
+        "batalkan",
+        "berhenti",
+        "ulang"
+      ],
+      "yes": [
+        "ya",
+        "iya",
+        "y",
+        "ok",
+        "oke",
+        "boleh",
+        "betul",
+        "benar",
+        "konfirmasi"
+      ],
+      "book": [
+        "booking",
+        "book",
+        "pesan",
+        "reservasi",
+        "janji",
+        "jadwal"
+      ],
+      "hours": [
+        "jam",
+        "buka",
+        "tutup",
+        "jam operasional",
+        "kapan"
+      ],
+      "prices": [
+        "harga",
+        "biaya",
+        "berapa",
+        "tarif",
+        "daftar harga",
+        "layanan",
+        "menu"
+      ],
+      "location": [
+        "dimana",
+        "di mana",
+        "lokasi",
+        "alamat",
+        "peta",
+        "parkir",
+        "arah"
+      ],
+      "greet": [
+        "halo",
+        "hai",
+        "hi",
+        "selamat pagi",
+        "selamat siang",
+        "selamat sore",
+        "selamat malam",
+        "permisi"
+      ]
+    },
+    "quick": [
+      [
+        "Jam buka",
+        "Jam buka kapan saja?"
+      ],
+      [
+        "Harga",
+        "Berapa harganya?"
+      ],
+      [
+        "Lokasi",
+        "Lokasinya di mana?"
+      ],
+      [
+        "Booking",
+        "Saya mau booking"
+      ],
+      [
+        "Staf",
+        "Saya mau bicara dengan staf"
+      ]
+    ],
+    "msg": {
+      "welcome": "Halo! 👋 Selamat datang di {biz}. Tanyakan jam buka, harga, atau lokasi, ketik 'booking' untuk membuat janji, atau 'bicara dengan staf'.",
+      "greet": "Halo! 👋 Selamat datang di {biz}. Saya bisa info jam buka, harga, lokasi, membuat booking, atau menghubungkan Anda dengan staf.",
+      "handoff": "Baik — saya teruskan ke tim {biz}. Sebentar lagi akan ada yang membalas di sini. (Demo: tidak ada orang yang benar-benar diberi tahu.)",
+      "cancelled": "Booking dibatalkan. Ada lagi yang bisa saya bantu?",
+      "ask_name": "Dengan senang hati! Boleh tahu nama Anda?",
+      "ask_service": "Terima kasih, {name}! Mau layanan apa?\n{list}",
+      "not_caught": "Maaf, saya kurang paham. Silakan pilih salah satu:\n{list}",
+      "ask_time": "Oke, {service} ({price}). Hari dan jam berapa yang cocok? Misalnya 'Sabtu jam 4 sore'",
+      "confirm": "Mohon konfirmasi:\nNama: {name}\nLayanan: {service}\nWaktu: {time}\nBalas YA untuk konfirmasi atau TIDAK untuk mengubah.",
+      "booked": "✅ Sudah dibooking! {name}, {service} Anda terkonfirmasi untuk {time} di {biz}. (Booking demo, tidak ada yang benar-benar dipesan.)",
+      "restart": "Baik, kita mulai lagi. Siapa nama Anda?",
+      "hours": "Kami buka {hours}.",
+      "prices": "Daftar harga kami:\n{list}\nMau booking? Cukup ketik 'booking'.",
+      "location": "Kami berada di {location}.",
+      "fallback": "Saya bisa bantu soal: jam buka, harga, lokasi, booking, atau 'bicara dengan staf'."
+    }
+  }
+}

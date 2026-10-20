@@ -8,6 +8,26 @@ It answers FAQs, takes bookings, and hands off to a human.
 - Product page: https://aaron11998.github.io/kitebuild-studio/kite-desk/
 - In-browser demo (rule-based, fictional "Demo Salon, Al Barsha"): [`/demo`](demo/index.html)
 
+## Languages
+
+The product page and its in-browser demo are available in six languages. Pick one with the switcher in the header, or link directly:
+
+| Language | Code | Direction | URL | Demo sample business (fictional) |
+|---|---|---|---|---|
+| English | `en` | LTR | [/kite-desk/](https://aaron11998.github.io/kitebuild-studio/kite-desk/) | Demo Salon, Al Barsha (Dubai, AED) |
+| Português (Brasil) | `pt-BR` | LTR | [?lang=pt-BR](https://aaron11998.github.io/kitebuild-studio/kite-desk/?lang=pt-BR) | Salão Demo, Pinheiros (São Paulo, BRL) |
+| Bahasa Indonesia | `id` | LTR | [?lang=id](https://aaron11998.github.io/kitebuild-studio/kite-desk/?lang=id) | Salon Demo, Kemang (Jakarta, IDR) |
+| हिन्दी | `hi` | LTR | [?lang=hi](https://aaron11998.github.io/kitebuild-studio/kite-desk/?lang=hi) | डेमो सैलून, बांद्रा (Mumbai, INR) |
+| العربية | `ar` | RTL | [?lang=ar](https://aaron11998.github.io/kitebuild-studio/kite-desk/?lang=ar) | صالون ديمو، البرشاء (Dubai, AED) |
+| Español | `es` | LTR | [?lang=es](https://aaron11998.github.io/kitebuild-studio/kite-desk/?lang=es) | Salón Demo, Polanco (CDMX, MXN) |
+
+- Without `?lang=`, the page uses the browser language (`navigator.languages`; any `pt-*` maps to `pt-BR`), falling back to English.
+- The page declares `hreflang` alternates for every language plus `x-default`.
+- Locale files live in [`config/locales/`](config/locales/): page copy (`page`) and the rule-based demo (`demo`: sample business, services and demo prices, intent keywords, quick replies, reply templates). Demo prices belong to the fictional sample salons only; Kite Desk itself has no published pricing.
+- Every language makes the same claims: early access, not yet connected to WhatsApp, no customers, pricing on request.
+- The standalone [`/demo`](demo/index.html) in this repo is still English only.
+- Real (non-demo) multilingual replies over WhatsApp are not built yet; see the roadmap.
+
 ## Architecture
 
 ```
@@ -44,7 +64,8 @@ npm start
 - [ ] Send replies via WhatsApp Cloud API
 - [ ] Booking state machine + calendar integration
 - [ ] Human handoff (notify staff, pause bot)
-- [ ] Arabic support
+- [x] Multilingual product page + rule-based demo (en, pt-BR, id, hi, ar RTL, es)
+- [ ] Multilingual replies in the live WhatsApp bot (Arabic, Portuguese, Indonesian, Hindi, Spanish)
 - [ ] Admin UI for editing the business config
 - [ ] Pilot with early-access businesses
 

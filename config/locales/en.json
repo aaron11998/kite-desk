@@ -1,0 +1,238 @@
+{
+  "locale": "en",
+  "name": "English",
+  "dir": "ltr",
+  "page": {
+    "title": "Kite Desk: AI WhatsApp receptionist (early access) | Kitebuild Studio",
+    "desc": "Kite Desk by Kitebuild Studio: an AI WhatsApp receptionist for small businesses. In development, early access.",
+    "skip": "Skip to content",
+    "nav_how": "How it works",
+    "nav_features": "Features",
+    "nav_demo": "Demo",
+    "nav_faq": "FAQ",
+    "cta_early": "Request early access",
+    "lang_label": "Language",
+    "eyebrow": "Kite Desk · In development · Early access",
+    "lead": "An AI WhatsApp receptionist for small businesses. It answers common questions, takes bookings, and hands the chat to a human when needed.",
+    "cta_demo": "Try the demo",
+    "chips": [
+      "WhatsApp",
+      "FAQs",
+      "Bookings",
+      "Human handoff",
+      "Demo in 6 languages"
+    ],
+    "how_h": "How it works",
+    "step1": "<strong>Set up.</strong> We load your hours, services, prices and FAQs into a simple config.",
+    "step2": "<strong>Connect.</strong> Kite Desk is connected to your WhatsApp Business number via the WhatsApp Cloud API.",
+    "step3": "<strong>Reply.</strong> Customers get instant answers and bookings; anything tricky is handed to your team.",
+    "feat_h": "Features",
+    "f1h": "FAQ answers",
+    "f1p": "Hours, prices, location and policies, answered from your own business info.",
+    "f2h": "Booking flow",
+    "f2p": "Collects name, service and preferred time, then confirms back to the customer.",
+    "f3h": "Human handoff",
+    "f3p": "Customers can ask for a person at any time; your team takes over the chat.",
+    "f4h": "Your data, your config",
+    "f4p": "Business info lives in a config file you can review and update.",
+    "demo_h": "Live demo (in your browser)",
+    "demo_sub": "<b>Demo, sample business:</b> “{biz}” is fictional. This demo is rule-based, runs only in your browser, and sends no real WhatsApp messages. It is not connected to WhatsApp.",
+    "demo_tag": "Demo, sample business",
+    "demo_badge": "DEMO",
+    "placeholder": "Type a message",
+    "send": "Send",
+    "demo_region": "Kite Desk chat demo",
+    "pricing_h": "Pricing",
+    "pricing_ch": "Early access, pricing on request",
+    "pricing_p": "Kite Desk is in development. Get in touch to join early access and discuss your business.",
+    "contact_btn": "Contact us",
+    "faq_h": "FAQ",
+    "q1": "Is Kite Desk live on WhatsApp?",
+    "a1": "Not yet. Kite Desk is in development and offered as early access. The demo above runs only in your browser.",
+    "q2": "Which businesses is it for?",
+    "a2": "Small businesses that get repeat questions and bookings on WhatsApp: salons, clinics, studios, workshops.",
+    "q3": "Can a real person take over?",
+    "a3": "Yes. Handoff to a human is a core feature.",
+    "q4": "What does it cost?",
+    "a4": "Early access, pricing on request.",
+    "int_h": "Interested?",
+    "int_btn": "Request early access via our contact form",
+    "langs_h": "Languages",
+    "langs_p": "This page is available in:",
+    "foot": "© Kitebuild Studio, Dubai · Kite Desk is in development. Demo uses a fictional sample business.",
+    "foot_early": "Early access:",
+    "wa_text": "Hi Kitebuild Studio, I'm interested in Kite Desk early access",
+    "wa_fab": "Chat on WhatsApp"
+  },
+  "demo": {
+    "match": "token",
+    "business": "Demo Salon, Al Barsha",
+    "initials": "DS",
+    "hours": "Sat–Thu 10:00–21:00, Fri 14:00–21:00",
+    "location": "Al Barsha 1, Dubai (sample address for the demo)",
+    "services": [
+      {
+        "id": "haircut",
+        "label": "haircut",
+        "price": "AED 80",
+        "aliases": [
+          "haircut",
+          "hair cut",
+          "cut",
+          "trim"
+        ]
+      },
+      {
+        "id": "blowdry",
+        "label": "blow dry",
+        "price": "AED 60",
+        "aliases": [
+          "blow dry",
+          "blowdry",
+          "blow"
+        ]
+      },
+      {
+        "id": "colour",
+        "label": "hair colour",
+        "price": "AED 250",
+        "aliases": [
+          "hair colour",
+          "colour",
+          "color",
+          "hair color"
+        ]
+      },
+      {
+        "id": "manicure",
+        "label": "manicure",
+        "price": "AED 70",
+        "aliases": [
+          "manicure",
+          "mani",
+          "nails"
+        ]
+      },
+      {
+        "id": "pedicure",
+        "label": "pedicure",
+        "price": "AED 90",
+        "aliases": [
+          "pedicure",
+          "pedi"
+        ]
+      }
+    ],
+    "keywords": {
+      "human": [
+        "human",
+        "person",
+        "agent",
+        "staff",
+        "someone",
+        "real",
+        "manager",
+        "call me"
+      ],
+      "cancel": [
+        "cancel",
+        "stop",
+        "restart"
+      ],
+      "yes": [
+        "yes",
+        "y",
+        "confirm",
+        "ok",
+        "okay",
+        "sure"
+      ],
+      "book": [
+        "book",
+        "booking",
+        "appointment",
+        "reserve",
+        "slot"
+      ],
+      "hours": [
+        "hours",
+        "hour",
+        "open",
+        "opening",
+        "close",
+        "closing",
+        "timings",
+        "timing",
+        "when"
+      ],
+      "prices": [
+        "prices",
+        "price",
+        "cost",
+        "costs",
+        "how much",
+        "rates",
+        "menu",
+        "aed",
+        "services",
+        "service"
+      ],
+      "location": [
+        "where",
+        "location",
+        "address",
+        "map",
+        "directions",
+        "parking"
+      ],
+      "greet": [
+        "hi",
+        "hello",
+        "hey",
+        "salam",
+        "marhaba",
+        "good morning",
+        "good evening"
+      ]
+    },
+    "quick": [
+      [
+        "Hours",
+        "What are your hours?"
+      ],
+      [
+        "Prices",
+        "Prices?"
+      ],
+      [
+        "Location",
+        "Where are you located?"
+      ],
+      [
+        "Book",
+        "I want to book"
+      ],
+      [
+        "Human",
+        "Talk to a human"
+      ]
+    ],
+    "msg": {
+      "welcome": "Hi! 👋 Welcome to {biz}. Ask about hours, prices, location, say 'book' to make an appointment, or 'talk to a human'.",
+      "greet": "Hi! 👋 Welcome to {biz}. I can share hours, prices, location, book an appointment, or connect you to a human.",
+      "handoff": "No problem — I’m handing you to a team member at {biz}. Someone will reply here shortly. (Demo: no real person is notified.)",
+      "cancelled": "Booking cancelled. Anything else I can help with?",
+      "ask_name": "Happy to book you in! What’s your name?",
+      "ask_service": "Thanks {name}! Which service would you like?\n{list}",
+      "not_caught": "Sorry, I didn’t catch that. Please pick one:\n{list}",
+      "ask_time": "Great, {service} ({price}). What day and time suits you? e.g. 'Saturday 4pm'",
+      "confirm": "Please confirm:\nName: {name}\nService: {service}\nTime: {time}\nReply YES to confirm or NO to change.",
+      "booked": "✅ Booked! {name}, your {service} is confirmed for {time} at {biz}. (Demo booking, nothing was actually reserved.)",
+      "restart": "No problem, let’s start again. What’s your name?",
+      "hours": "We’re open {hours}.",
+      "prices": "Our prices:\n{list}\nWant to book? Just say 'book'.",
+      "location": "We’re at {location}.",
+      "fallback": "I can help with: opening hours, prices, location, booking an appointment, or 'talk to a human'."
+    }
+  }
+}
